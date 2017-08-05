@@ -1,0 +1,70 @@
+<!DOCTYPE=html>
+<html>
+	<head>
+		<title>A somewhat decent pizza place!</title>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="./css/pizza.css">
+		<p id="test">Welcome to pizza land, the pizza-ey-est place on earth!</p>
+	</head>
+	<body>
+		<div class="container">
+		<div id="menuBG"><h1>Please choose your pizza destiny:</h1>
+			<form id="frmMenu">
+				<div class="menu">
+					<h3>Select Size:</h3>
+					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+				</div>
+				<div class="menu">
+					<h3>Pick Ya Meats!</h3>
+					<input class="meat" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+					<input class="meat" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+					<input class="meat" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+					<input class="meat" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+					<input class="meat" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+					<input class="meat" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+				</div>
+				<div class="menu">
+					<h3>Why Not Vegetables?:</h3>
+					<input class="vegetable" type="checkbox" name="Veggie" value="Tomatoes"> Tomatoes<br>
+					<input class="vegetable" type="checkbox" name="Veggie" value="Onions"> Onions <br>
+					<input class="vegetable" type="checkbox" name="Veggie" value="Olives"> Olives<br> 
+					<input class="vegetable" type="checkbox" name="Veggie" value="Green Peppers"> Green Peppers<br>
+					<input class="vegetable" type="checkbox" name="Veggie" value="Mushrooms"> Mushrooms<br>
+					<input class="vegetable" type="checkbox" name="Veggie" value="Pineapple"> Pineapple<br>
+					<input class="vegetable" type="checkbox" name="Veggie" value="Spinach"> Spinach<br>
+					<input class="vegetable" type="checkbox" name="Veggie" value="Jalapeno"> Jalapeno<br>
+				</div>
+				<div class="menu">
+					<h3>Don't forget th' Cheese!</h3>
+					<input class="cheese" type="radio" name="Cheese" value="Regular cheese" checked> Regular cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="No cheese"> No cheese<br>
+					<input class="cheese" type="radio" name="Cheese" value="Extra cheese"> Extra cheese<br>
+				</div>
+				<div class="menu">
+					<h3>Y'all like sauce?</h3>
+					<input class="sauce" type="radio" name="Sauce" value="Marinara sauce" checked> Marinara sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="White sauce"> White sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="Barbeque sauce"> Barbeque sauce<br>
+					<input class="sauce" type="radio" name="Sauce" value="No sauce"> No sauce<br>
+				</div>
+				<div class="menu">
+					<h3>Choose thy Crust:</h3>
+					<input class="crust" type="radio" name="Crust" value="Plain Crust" checked> Plain Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br>
+					<input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+					<input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br>
+				</div>
+			</form>
+			<input class="butt" type="button" value="Place order" onclick="getTotal()"></button>
+			<div id="receipt">
+				Excellent choice! You ordered:
+			</div>
+		<footer>
+		</footer>
+		<script src="./script/pizza.js"></script>
+	</body>
+</html>

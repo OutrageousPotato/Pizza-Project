@@ -1,0 +1,47 @@
+body {
+	font: Arial, Helvetica, sans-serif;
+	background-image: url(../img/pizza2.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	width: 650px;
+}
+
+p {
+	font-size: 28;
+	color: yellow;
+	background-color: green;
+	margin: 3px;
+	padding: 3px;
+}
+
+#menuBG {
+	border: 3px dotted gray;
+	background-color: powderblue;
+	color: blue;
+	padding: 5px;
+	margin: 5px;
+}
+
+.menu {
+	border: 5px solid red;
+	border-radius: 25px;	
+	background-color: yellow;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+
+.butt {
+	float: left;
+}
+
+#receipt {
+	background-color: teal;
+	float: left;
+	margin: 3px;
+	padding: 7px;
+	border: 5px solid red;
+	border-radius: 25px;
+	display: none;
+}
+
